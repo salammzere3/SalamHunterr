@@ -28,19 +28,16 @@ from SalamHunter import salammzere3
 
 username = "<your email or phone or username>"
 password ="<your password >"
-Logan = salammzere3.Instalogin(str(username),str(password))
+SalamReq = salammzere3.Instalogin(str(username),str(password))
 
-if Logan ==True:
+if SalamReq ==True:
 	print ("login successful")
 	
-elif Logan ==False:
+elif SalamReq ==False:
 	print("Error account is security")
-elif deta ==None:
+elif SalamReq ==None:
 	print("Error account is bad")
 	
-
-``` python
-```
 ## Follow us on social media
 [![Github](https://img.shields.io/badge/Githusalammzere3-orange?style=for-the-badge&logo=github)](https://github.com/salammzere3/)
 [![Telegram](https://img.shields.io/badge/Telegram-T5B55-orange?style=for-the-badge&logo=Telegram)](https://t.me/T5B55)
