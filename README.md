@@ -21,7 +21,7 @@
 ```
 pip install SalamHunter
 ```
-### Logan Usage
+### Login Usage
 
 ``` python
 from SalamHunter import salammzere3
