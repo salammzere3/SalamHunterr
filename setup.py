@@ -11,12 +11,12 @@ requires = fr.read().split('\n')
 setuptools.setup(
     name="SalamHunter",
     version="1.0.1",
-    author="SalamHunter",
+    author="salammzere3",
     author_email="salamhunter@gmail.com",
     description="• Script Very Nice To Helping Programmer .",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/salammzere3/SalamHunter",
+    url="https://github.com/salammzere3/SalamHunterr",
     project_urls={
         "Bug Tracker": "https://github.com/pypa/sampleproject/issues",
     },
