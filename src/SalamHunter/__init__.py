@@ -1,1 +1,1 @@
-from .SalamHunter import salammzere3
+from .SalamHunter import *
