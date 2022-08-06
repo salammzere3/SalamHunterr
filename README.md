@@ -1,4 +1,4 @@
-<h1 align="center">SalamInsta</h1>
+<h1 align="center">SalamHunter</h1>
 <p align="center">It is a useful project for developers that includes useful tools for Instagram</p>
 
 ![](https://img.shields.io/badge/salammzere3-orange?style=for-the-badge&logo=python.svg) 
@@ -24,13 +24,13 @@ pip install SalamHunter
 ### Login Usage
 
 ``` python
-from SalamHunter import salammzere3
+from SalamHunter import *
 
 username = "<your email or phone or username>"
 password ="<your password >"
 SalamReq = salammzere3.Instalogin(str(username),str(password))
 
-if SalamReq ==True:
+if SalamReq['status'] =='Success':
 	print ("login successful")
 	
 elif SalamReq ==False:
